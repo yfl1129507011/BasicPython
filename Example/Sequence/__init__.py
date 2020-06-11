@@ -8,7 +8,7 @@ Python中的序列类型包括列表（list），元组（tuple），字典（di
 
 str1 = "Python序列索引"
 str1_len = len(str1)
-print("字符【", str1, "】的长度为", str1_len);
+print("字符【", str1, "】的长度为", str1_len)
 print(str1[0], "==", str1[0-str1_len])  # P == P
 print(str1[5], "==", str1[5-str1_len])  # n == n
 
