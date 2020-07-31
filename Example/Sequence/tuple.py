@@ -64,3 +64,10 @@ url = 'http://c.biancheng.net/view/4360.html'
 # 删除元组
 # del url
 # print(url)  # NameError: name 'url' is not defined
+
+
+listDemo = []
+# print(listDemo.__sizeof__())   # 40
+
+tupleDemo = ()
+# print(tupleDemo.__sizeof__())  # 24
